@@ -3,4 +3,4 @@
   - The target of our model is the IS_SUCCESSFUL column
   - The features of our model are APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, and ASK_AMT columns.
   - The EIN and NAME columns should be removed.
-  I started with 111 neurons, 3 layers and used 2 diferent activations (relu and sigmoid). I was not able to achieve the goal of 75% and was around 72% accuracy. I tried changing the amount of neurons and layers but still could not reach 75%.
+  I started with 111 neurons, 3 layers and used 2 diferent activations (relu and sigmoid). I was not able to achieve the goal of 75% and was around 72% accuracy. I tried changing the amount of neurons and layers but still could not reach 75%. Overall I feel the model is adequate but would love to get the accuarcy in the high 70s. My recomendation would be to take away some of the columns that seem the least impactful. I would recomend this because with less factors I believe the accuracy would go up which is the goal.
